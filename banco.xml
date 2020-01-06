@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<banco>
+    <mysql>
+        <host>localhost</host>
+        <user>root</user>
+        <password></password>
+        <db>livraria</db>
+        <charset>utf8mb4</charset>
+    </mysql>
+</banco>
