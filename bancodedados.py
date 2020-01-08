@@ -1,5 +1,7 @@
 import xml.etree.ElementTree as ET
 from banco import banco
+# Fabio Casaroli
+#Classe da função de xml ao bd
 
 tree = ET.parse('banco.xml')
 root = tree.getroot()

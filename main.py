@@ -1,5 +1,9 @@
-import mysql
+import login
+# Fabio Casaroli
+result = False
+while not result:
+#chamada da biblioteca de login
+ result = login.logarCadastrar()
+#print do resultado
+ print(result)
 
-mysqlResult = mysql.selectBD('select * from v_funcionarios')
-for dado in mysqlResult:
-    print(dado['cpf'])

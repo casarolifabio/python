@@ -4,7 +4,7 @@
         <host>localhost</host>
         <user>root</user>
         <password></password>
-        <db>livraria</db>
+        <db>erp</db>
         <charset>utf8mb4</charset>
     </mysql>
 </banco>

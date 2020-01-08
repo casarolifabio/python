@@ -2,6 +2,9 @@ import pymysql.cursors
 import bancodedados
 from bancodedados import banco
 
+#Fabio Casaroli
+#Execução do bd por Funções Internas
+
 
 def selectBD(query):
   queryexe = query
@@ -30,4 +33,3 @@ def selectBD(query):
 
   cursor.close()
   conexao.close()
-
